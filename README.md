@@ -7,3 +7,9 @@ A collection of small Python exercises and scripts I wrote while learning the fu
 ```bash
 python main.py
 ```
+
+## What's inside
+
+## Topics
+
+## Notes
