@@ -20,7 +20,7 @@ print(
 if "country" in person:  # checks if key exists
     print("country =", person["country"])  # display country in console
 else:  # if key does not exist
-    print("county key not found")  # display this text in console
+    print("country key not found")  # display this text in console
 
 print()  # blank line
 
@@ -33,7 +33,7 @@ count = int(
 items = {}  # empty dictionary
 for i in range(1, count + 1):  # loop from 1 to count, the last value is included
     key = input(f"Key {i}: ")  # read text, the user enters value from the keyboard
-    value = input(f"Value {i}: ")  # read text, tje user enters value from the keyboard
+    value = input(f"Value {i}: ")  # read text, the user enters value from the keyboard
     items[key] = value  # add key and value to dictionary
 
 print("items =", items)  # display items in console
@@ -61,7 +61,7 @@ for i in range(1, n + 1):  # loop from 1 to n, the last value is included
 print()  # blank line
 print("counts =", counts)  # display counts in console
 
-print("Summary: ")  # display summary in console
+print("Summary:")  # display summary in console
 for word, c in counts.items():  # loop through keys and values
     print(f"{word} = {c}")  # display counting in console
 
