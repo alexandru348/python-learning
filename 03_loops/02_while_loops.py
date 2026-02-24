@@ -97,7 +97,7 @@ x = int(
     input("Positive number: ")
 )  # read text, convert to int, the user enters value from the keyboard
 
-while x <= 0:  # if the entered value is non-negative
+while x <= 0:  # if the entered value is not positive
     print("Please enter a positive number")
     x = int(
         input("Positive number: ")
