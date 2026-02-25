@@ -28,4 +28,4 @@ if folder_path.exists():  # if folder path exists
 else:  # if folder path doesn't exist
     print(
         "the folder doesn't exist"
-    )  # display this messsage in console, in case the folder doesn't exist
+    )  # display this message in console, in case the folder doesn't exist
