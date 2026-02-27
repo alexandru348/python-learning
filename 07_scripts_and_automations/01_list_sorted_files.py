@@ -2,7 +2,7 @@
 
 # Example of script who is sorting files after names and numbers, without renaming and modifying them
 
-from pathlib import Path  # import for working with folder / folder paths
+from pathlib import Path  # import for working with folder / file paths
 
 folder_path = Path("07_scripts_and_automations/test_data")  # folder path
 files = []  # empty list
