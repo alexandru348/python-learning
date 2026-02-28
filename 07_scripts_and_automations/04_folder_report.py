@@ -69,4 +69,4 @@ for ext in sorted(counts.keys()): # loop through the dictionary
 
 print() # blank line
 print(f"Final total files: {len(filtered_files)}") # display the total of final files in the console
-print() # blank lin
+print() # blank line
